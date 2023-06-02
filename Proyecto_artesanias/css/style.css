@@ -1,0 +1,140 @@
+/* encabezado y botones de navegación */
+
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+  }
+
+  .left-side img {
+    height: 70px;
+    margin: 20px 0px -50px;
+  }
+  
+  .left-side nav ul {
+    list-style: none;
+    margin: 0px 120px;
+    padding: 0px;
+    display: flex;
+
+  }
+  
+  .left-side nav ul li {
+    margin-right: 20px;
+  }
+  
+  .left-side nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .left-side nav ul li a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .btn-black, .btn-white {
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  
+  .btn-black {
+    background-color: black;
+    color: white;
+    border: 2px solid black;
+    margin-left: 20px;
+  }
+  
+  .btn-white {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  }
+
+/*franja verde con texto*/
+.fondo-verde {
+  position: relative;
+}
+  .fondo-verde {
+    color: white;
+    text-align:center;
+    position: relative;
+    top: 0;
+    right: 0px;
+    width: 1400px;
+    height: 467px;
+    background-color: rgb(26, 94, 37);
+
+  }
+  h1{
+    font-size: 80px;
+  }
+
+ /*franja de alebrije y cuadro rojo*/
+
+  .contenedor {
+    position: relative;
+  }
+  
+  .cuadrado {
+    color: white;
+    text-align: center;
+    position: absolute;
+    top: 0;
+    right: 0px;
+    width: 750px;
+    height: 467px;
+    background-color: rgb(255, 2, 78);
+  }
+  
+  #alebrije
+   {
+    width: 700px;
+  }
+
+  h2{
+    font-size: 80px;
+  }
+
+ /*franja de alebrije 2 y cuadro rojo 2*/
+
+ .contenedor2 {
+  position: relative;
+}
+
+.cuadrado2 {
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  right: 15;
+  width: 760px;
+  height: 467px;
+  background-color: rgb(255, 2, 78);
+
+}
+
+.cuadrado2 h1 {
+  position: absolute;
+  top: 50%; /* distancia desde arriba */
+  left: 50%; /* distancia desde la izquierda */
+  transform: translate(50%, 50%);
+  color: white;
+  font-size: 3rem;
+  text-align: left;
+
+}
+
+#alebrije2
+ {
+  width: 700px;
+  position: relative;
+  left: 19cm;
+  z-index: 1;
+}
+
