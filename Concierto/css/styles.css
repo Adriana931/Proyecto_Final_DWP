@@ -42,7 +42,7 @@ html, body {
 
 .main-header {
     background-color: rgba(0, 0, 0, .6);
-    background-image: url("C:/Users/PILARESCONTADERO/Documents/proyectoFinal/img/pexels-photo-1763075.jpeg");
+    background-image: url("C:/Users/PILARES/Documents/GitHub/Proyecto_Final_DWP/Concierto/img/pexels-photo-1763075.jpeg");
     background-blend-mode: multiply;
     background-size: cover;
     padding-bottom: 30px;
@@ -71,7 +71,7 @@ html, body {
     padding: 0 1.5em;
 }
 .section-header {
-    font-family:Arial, Helvetica, sans-serif
+    font-family:Arial, Helvetica, sans-serif;
     font-weight: normal;
     color: #333;
     text-align: center;
